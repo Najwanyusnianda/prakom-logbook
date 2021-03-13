@@ -17,10 +17,11 @@ export default createStore({
     },
     async addKegiatan({commit},kegiatan){
 
-       const nama_kegiatan=kegiatan.nama_kegiatan
+
        console.log('nama_kegiatan')
       const response = await axios.post('http://localhost:3000/kegiatan',{
-        nama:nama_kegiatan
+        nama:kegiatan.nama_kegiatan,
+        tanggal_kegiatan:kegiatan.tanggal_kegiatan
       });
       commit('ADD_KEGIATAN',response.data)
     }

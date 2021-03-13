@@ -15,6 +15,11 @@
     {
       "nama": "membuat kertas",
       "id": 4
+    },
+    {
+      "nama": "Pergi Ke Pasar",
+      "tanggal_kegiatan": "2021-03-22",
+      "id": 5
     }
   ],
   "juknis": [
