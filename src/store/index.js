@@ -18,10 +18,13 @@ export default createStore({
     async addKegiatan({commit},kegiatan){
 
 
-       console.log('nama_kegiatan')
+
       const response = await axios.post('http://localhost:3000/kegiatan',{
-        nama:kegiatan.nama_kegiatan,
-        tanggal_kegiatan:kegiatan.tanggal_kegiatan
+        kegiatan:kegiatan.nama_kegiatan,
+        tanggal_kegiatan:kegiatan.tanggal_kegiatan,
+        lokasi_kegiatan:kegiatan.lokasi_kegiatan,
+        penyelenggara:kegiatan.penyelenggara
+
       });
       commit('ADD_KEGIATAN',response.data)
     }

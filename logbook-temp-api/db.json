@@ -1,25 +1,18 @@
 {
   "kegiatan": [
     {
-      "id": 1,
-      "nama": "membuat DDA"
+      "kegiatan": "Membaca",
+      "tanggal_kegiatan": "2021-03-14",
+      "lokasi_kegiatan": "dfdfd",
+      "penyelenggara": "dfdfdfdf",
+      "id": 9
     },
     {
-      "id": 2,
-      "nama": "menulis buku"
-    },
-    {
-      "nama": "membuat kertas",
-      "id": 3
-    },
-    {
-      "nama": "membuat kertas",
-      "id": 4
-    },
-    {
-      "nama": "Pergi Ke Pasar",
-      "tanggal_kegiatan": "2021-03-22",
-      "id": 5
+      "kegiatan": "dd",
+      "tanggal_kegiatan": "2021-03-14",
+      "lokasi_kegiatan": "dd",
+      "penyelenggara": "sss",
+      "id": 10
     }
   ],
   "juknis": [
