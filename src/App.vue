@@ -1,15 +1,15 @@
 <template>
 
-  <HelloWorld />
+  <CreateKegiatan/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CreateKegiatan from './components/CreateKegiatan'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CreateKegiatan
   }
 }
 </script>
