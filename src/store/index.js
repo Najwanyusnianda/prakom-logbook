@@ -14,6 +14,7 @@ export default createStore({
     async fetchKegiatans({commit}){
       const response =await axios.get('http://localhost:3000/kegiatan');
       commit('SET_KEGIATANS',response.data);
+
     },
     async addKegiatan({commit},kegiatan){
 
@@ -27,6 +28,7 @@ export default createStore({
 
       });
       commit('ADD_KEGIATAN',response.data)
+
     }
   },
   getters:{

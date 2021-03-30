@@ -26,6 +26,8 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      'litepie-primary': colors.lightBlue, // color system for light mode
+      'litepie-secondary': colors.coolGray // color system for dark mode
     },
     spacing: {
       px: '1px',
